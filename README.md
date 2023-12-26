@@ -1,4 +1,5 @@
 # Predicting Energy Consumption
+![Firefly Predict Energy Behavior of Prosumers](https://github.com/RezaDelvari/energyconsumptionrepo/assets/150558004/6b947431-8347-4b31-9d6d-5d7a424ccd99)
 ## Project Proposal 
 ### The Problem Area
 * Develop accurate predictive models for estimating the amount of electricity consumed and produced by prosumers (who both consume and generate energy) with solar panels.
