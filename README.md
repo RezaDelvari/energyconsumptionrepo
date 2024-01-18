@@ -38,3 +38,35 @@ Enefit is one of the biggest energy companies in Baltic region. As experts in th
 At present, Enefit is attempting to solve the imbalance problem by developing internal predictive models and relying on third-party forecasts. However, these methods have proven to be insufficient due to their low accuracy in forecasting the energy behavior of prosumers. The shortcomings of these current methods lie in their inability to accurately account for the wide range of variables that influence prosumer behavior, leading to high imbalance costs. By opening up the challenge to the world's best data scientists through the Kaggle platform, Enefit aims to leverage a broader pool of expertise and novel approaches to improve the accuracy of these predictions and consequently reduce the imbalance and associated costs.
 ## What do we need to predict?
 For each county we need to make predicitons of consumption or production of electricity. For each county we need to make prediction for several subgroups is_business(True/False), is_consumption(True/False), product_type(0, 1, 2, 3).
+
+### 3. Functions
+- `preprocess_data`: Function for preparing and pre-processing various datasets for training a machine learning model.
+- `create_revealed_targets_train`: Function to create lagged target values for a given dataset.
+- `get_agg_target_lag`: Function to aggregate lagged target values in a DataFrame and compute various statistics.
+
+## Instructions
+
+### Running the Code
+1. Ensure you have the required Python packages installed. You can install them using `pip install -r requirements.txt`.
+2. Open the `energy_prediction.ipynb` notebook and run the code cells sequentially.
+
+### Data
+- Place the dataset files in the specified folder structure.
+- Modify file paths in the code if your data is stored in a different location.
+
+### Model Training
+- Two models are trained: Model 1 for main predictions and Model 2 for production targets.
+- Model parameters are specified in the notebook, allowing for customization based on specific requirements.
+
+## Results
+- Model performance metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared are provided for both trained models.
+- Visualizations of feature importances are included, offering insights into the key factors influencing energy consumption predictions.
+
+## Additional Notes
+- This project includes sin and cosine transformations for temporal features, log transformations for specific columns, and the creation of lagged target values to capture temporal dependencies.
+
+## Future Enhancements
+- Discuss potential future enhancements or features that could be added to improve the model or extend its capabilities.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
