@@ -1,4 +1,4 @@
-# Predicting Energy Consumption
+# Predicting Energy Consumption(Capstone)
 ![Firefly Predict Energy Behavior of Prosumers](https://github.com/RezaDelvari/energyconsumptionrepo/assets/150558004/6b947431-8347-4b31-9d6d-5d7a424ccd99)
 # Predict Energy Behavior of Prosumers
 
